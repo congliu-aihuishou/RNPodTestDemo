@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RNPodTestDemo'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '一个简短的说明'
 
 # This description is used to generate tags and improve search results.
