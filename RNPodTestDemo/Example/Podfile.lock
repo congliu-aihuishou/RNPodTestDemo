@@ -1,0 +1,16 @@
+PODS:
+  - RNPodTestDemo (0.1.0)
+
+DEPENDENCIES:
+  - RNPodTestDemo (from `../`)
+
+EXTERNAL SOURCES:
+  RNPodTestDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RNPodTestDemo: 683d88cd9946305f3c9f0df3acebe40ea8cf0cf2
+
+PODFILE CHECKSUM: f37ed3f30692462d245e71fe4b2a76cbc42d23a3
+
+COCOAPODS: 1.5.0
