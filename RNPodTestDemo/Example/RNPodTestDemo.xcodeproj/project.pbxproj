@@ -14,7 +14,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		677EEE448DB05104417174B2 /* Pods_RNPodTestDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A9B97BDE04CE73FAD8CEFD /* Pods_RNPodTestDemo_Tests.framework */; };
-		BBF2F1F4222642F900B661A9 /* RNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF2F1F3222642F900B661A9 /* RNBaseViewController.swift */; };
 		CC60A22C395D60327F6BA3C6 /* Pods_RNPodTestDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AE3EDA57CF465DAF0AB5CF /* Pods_RNPodTestDemo_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +46,6 @@
 		7FB3DE35917EEC23E295713F /* Pods-RNPodTestDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPodTestDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNPodTestDemo_Example/Pods-RNPodTestDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		80A9B97BDE04CE73FAD8CEFD /* Pods_RNPodTestDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNPodTestDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8236C0FEE668CE9B16C56531 /* RNPodTestDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RNPodTestDemo.podspec; path = ../RNPodTestDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBF2F1F3222642F900B661A9 /* RNBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBaseViewController.swift; sourceTree = "<group>"; };
 		E4C6D79DF25E93C34BA9D2A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +115,6 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				BBF2F1F3222642F900B661A9 /* RNBaseViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -337,7 +334,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBF2F1F4222642F900B661A9 /* RNBaseViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

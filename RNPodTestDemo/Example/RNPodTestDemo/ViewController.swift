@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import RNPodTestDemo
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let vc = RNBaseViewController()
+        vc.addTestUI()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

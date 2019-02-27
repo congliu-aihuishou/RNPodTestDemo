@@ -1,9 +1,9 @@
 {
   "name": "RNPodTestDemo",
   "version": "0.1.0",
-  "summary": "A short description of RNPodTestDemo.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/cong.liu@aihuishou.com/RNPodTestDemo",
+  "summary": "一个简短的说明",
+  "description": "TODO: 这里添加 长说明",
+  "homepage": "https://github.com/congliu-aihuishou/RNPodTestDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,17 @@
     "cong.liu@aihuishou.com": "cong.liu@aihuishou.com"
   },
   "source": {
-    "git": "https://github.com/cong.liu@aihuishou.com/RNPodTestDemo.git",
+    "git": "https://github.com/congliu-aihuishou/RNPodTestDemo.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RNPodTestDemo/Classes/**/*"
+  "source_files": "RNPodTestDemo/Classes/**/*",
+  "resource_bundles": {
+    "RNPodTestDemo": [
+      "RNPodTestDemo/Assets/*"
+    ]
+  },
+  "frameworks": "UIKit"
 }

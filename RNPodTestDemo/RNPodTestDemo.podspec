@@ -32,12 +32,11 @@ TODO: 这里添加 长说明
 
   s.source_files = 'RNPodTestDemo/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'RNPodTestDemo' => ['RNPodTestDemo/Assets/*']
-  # }
+  s.resource_bundles = {
+    'RNPodTestDemo' => ['RNPodTestDemo/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+
 end
